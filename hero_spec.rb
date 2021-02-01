@@ -14,7 +14,7 @@ describe Hero do
     expect(@hero.power_up).to eq 110  
   end
 
-  it "can power_down" do
+  it "can power down" do
     expect(@hero.power_down).to eq 90
   end 
 
